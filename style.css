@@ -52,3 +52,55 @@ ul {
 .navbar a{
     color: #e5e7eb;
 }
+
+.header {
+    height: 500px;
+    width: 100%;
+    background: #1f2937;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.header .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.header .container * {
+    flex: 1;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: -40px;
+}
+
+.header p {
+    margin-bottom: 25px;
+}
+
+.header .content a {
+    color: #ffffff;
+    background: #3882f6;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.header .banner {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .banner img {
+    height: 100%;
+    background: #ffffff22;
+}
+

@@ -154,3 +154,34 @@ ul {
     color: #1f2937;
 }
 
+.quote {
+    width: 100%;
+    background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+}
+
+.quote .container {
+    height: 100%;
+    width: 100%;
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #1f2937;
+}
+
+.quote .main-quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: justify;
+}
+
+.quote .author {
+    padding-top: 10px;
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
